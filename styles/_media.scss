@@ -15,6 +15,8 @@
     .header-content{
         grid-template-columns: 1fr;
         padding-bottom: 6rem;
+        overflow-y: auto;    
+        height: auto;
         .left-header{
             display: none;
         }
@@ -45,7 +47,7 @@
         width: 100%;
         background-color: var(--color-grey-5);
         .control{
-            margin: .8rem .7rem !important;//1rem .5rem;
+            margin: 1rem .3rem !important;//1rem .5rem;
             height: 50px;
             width: 50px;
         }
@@ -134,6 +136,16 @@
             }
         }
     }
+
+
+    //Submit button
+    .submit-btn{
+        button{
+            width: 100% !important;
+        }
+
+    }
+
      
     //Main title
     .main-title{

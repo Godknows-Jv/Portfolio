@@ -762,6 +762,8 @@ section {
   .header-content {
     grid-template-columns: 1fr;
     padding-bottom: 6rem;
+    overflow-y: auto;
+    height: auto;
   }
   .header-content .left-header {
     display: none;
@@ -790,7 +792,7 @@ section {
     background-color: var(--color-grey-5);
   }
   .controls .control {
-    margin: 0.8rem 0.7rem !important;
+    margin: 1rem 0.3rem !important;
     height: 50px;
     width: 50px;
   }
@@ -860,6 +862,9 @@ section {
   }
   .education-container .education .education-description {
     text-align: left;
+  }
+  .submit-btn button {
+    width: 100% !important;
   }
   .main-title {
     padding-top: 1.9rem;
