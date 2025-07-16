@@ -761,7 +761,7 @@ section {
   }
   .header-content {
     grid-template-columns: 1fr;
-    padding-bottom: 6rem;
+    padding-bottom: 10rem;
     overflow-y: auto;
     height: auto;
   }
