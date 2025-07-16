@@ -1,6 +1,7 @@
 @media screen and (max-width: 1200px) {
     header{
         padding: 0;
+        overflow:scroll;
     }
     header .right-header{
         padding: 1.5rem !important;
@@ -15,8 +16,6 @@
     .header-content{
         grid-template-columns: 1fr;
         padding-bottom: 10rem;
-        overflow-y: auto;    
-        height: auto;
         .left-header{
             display: none;
         }
